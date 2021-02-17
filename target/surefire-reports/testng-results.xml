@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-11T21:14:04Z" name="All Test Suite" finished-at="2020-09-11T21:19:33Z" duration-ms="328678">
+    <groups>
+    </groups>
+    <test started-at="2020-09-11T21:14:04Z" name="C:/Users/Vinuta/IdeaProjects/ExpediaBooking/src/test/java/com/expedia/Test" finished-at="2020-09-11T21:19:33Z" duration-ms="328678">
+      <class name="com.expedia.Test.HotelSearchTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:16:56Z" name="setup" finished-at="2020-09-11T14:17:03Z" duration-ms="6709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.expedia.Test.HotelSearchTest.Tc_hotelfilter_01(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_hotelfilter_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:17:03Z" name="Tc_hotelfilter_01" description="Test Case to verify Filter By using dataprovider " data-provider="filterBy" finished-at="2020-09-11T14:17:46Z" duration-ms="43303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HOTEL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5★]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Greater than $300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_hotelfilter_01 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:17:46Z" name="tearDown" finished-at="2020-09-11T14:17:48Z" duration-ms="1975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc_hotelfilter_01 status=SUCCESS method=HotelSearchTest.Tc_hotelfilter_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:17:48Z" name="setup" finished-at="2020-09-11T14:17:55Z" duration-ms="6468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.expedia.Test.HotelSearchTest.Tc_hotelfilter_01(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_hotelfilter_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:17:55Z" name="Tc_hotelfilter_01" description="Test Case to verify Filter By using dataprovider " data-provider="filterBy" finished-at="2020-09-11T14:18:43Z" duration-ms="48587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FREE_PARKING]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3★]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$200 to $300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_hotelfilter_01 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:18:43Z" name="tearDown" finished-at="2020-09-11T14:18:45Z" duration-ms="1816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc_hotelfilter_01 status=SUCCESS method=HotelSearchTest.Tc_hotelfilter_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:18:45Z" name="setup" finished-at="2020-09-11T14:18:52Z" duration-ms="6900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.expedia.Test.HotelSearchTest.Tc_selecthotel_02(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_selecthotel_02(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:18:52Z" name="Tc_selecthotel_02" description="Scenario based Test case to perform booking - stay in Loc" data-provider="bookingHotel" finished-at="2020-09-11T14:19:31Z" duration-ms="38737" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Francisco (SFO - San Francisco Intl.)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[November/10/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your payment options]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHASHANK-PC', ip: '10.0.0.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Vinuta\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c6ebf408ebd0c8c20a8d2dceb53aa074]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHASHANK-PC', ip: '10.0.0.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Vinuta\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c6ebf408ebd0c8c20a8d2dceb53aa074
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy27.sendKeys(Unknown Source)
+	at com.expedia.Pages.HomePage.input_staysWindow(HomePage.java:55)
+	at com.expedia.Test.HotelSearchTest.Tc_selecthotel_02(HotelSearchTest.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_selecthotel_02 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218]" started-at="2020-09-11T14:19:31Z" name="tearDown" finished-at="2020-09-11T14:19:33Z" duration-ms="2038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc_selecthotel_02 status=FAILURE method=HotelSearchTest.Tc_selecthotel_02(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HotelSearchTest@2e61d218] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expedia.Test.HotelSearchTest -->
+      <class name="com.expedia.Test.HomePageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:14:04Z" name="beforeSuite" finished-at="2020-09-11T14:14:04Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:14:04Z" name="setup" finished-at="2020-09-11T14:14:14Z" duration-ms="9591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.expedia.Test.HomePageTest.title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="title()[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:14:14Z" name="title" finished-at="2020-09-11T14:14:39Z" duration-ms="24800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:14:39Z" name="tearDown" finished-at="2020-09-11T14:14:42Z" duration-ms="2993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=title status=SUCCESS method=HomePageTest.title()[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:14:44Z" name="setup" finished-at="2020-09-11T14:14:51Z" duration-ms="6881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.expedia.Test.HomePageTest.Tc_stayloc_01(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_stayloc_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:14:51Z" name="Tc_stayloc_01" description="Test Case to search stay based on location and check in date" data-provider="stayInfoData" finished-at="2020-09-11T14:15:25Z" duration-ms="33654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Francisco (SFO - San Francisco Intl.)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[November/10/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_stayloc_01 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:15:25Z" name="tearDown" finished-at="2020-09-11T14:15:27Z" duration-ms="2272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc_stayloc_01 status=SUCCESS method=HomePageTest.Tc_stayloc_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:15:27Z" name="setup" finished-at="2020-09-11T14:15:34Z" duration-ms="6745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.expedia.Test.HomePageTest.Tc_stayloc_01(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_stayloc_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:15:34Z" name="Tc_stayloc_01" description="Test Case to search stay based on location and check in date" data-provider="stayInfoData" finished-at="2020-09-11T14:16:10Z" duration-ms="36424" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Francisco (SFO - San Francisco Intl.)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[November/10/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results] but found [San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results] but found [San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.expedia.Test.HomePageTest.Tc_stayloc_01(HomePageTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_stayloc_01 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:16:10Z" name="tearDown" finished-at="2020-09-11T14:16:12Z" duration-ms="1799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc_stayloc_01 status=FAILURE method=HomePageTest.Tc_stayloc_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:16:12Z" name="setup" finished-at="2020-09-11T14:16:19Z" duration-ms="6709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.expedia.Test.HomePageTest.Tc_stayloc_01(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_stayloc_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:16:19Z" name="Tc_stayloc_01" description="Test Case to search stay based on location and check in date" data-provider="stayInfoData" finished-at="2020-09-11T14:16:54Z" duration-ms="34800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York (JFK - John F. Kennedy Intl.)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[December/20/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[New York, NY, United States (JFK-John F. Kennedy Intl.) Hotel Search Results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_stayloc_01 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a]" started-at="2020-09-11T14:16:54Z" name="tearDown" finished-at="2020-09-11T14:16:56Z" duration-ms="2287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc_stayloc_01 status=SUCCESS method=HomePageTest.Tc_stayloc_01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.Test.HomePageTest@25e2ab5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expedia.Test.HomePageTest -->
+    </test> <!-- C:/Users/Vinuta/IdeaProjects/ExpediaBooking/src/test/java/com/expedia/Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

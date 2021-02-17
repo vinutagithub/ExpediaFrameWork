@@ -1,0 +1,37 @@
+[INFO ] 2020-09-10 23:39:43.740 [main] ExcelHelper - 
+[INFO ] 2020-09-10 23:39:58.423 [main] ExcelHelper - Test Case  PASSED title
+[INFO ] 2020-09-10 23:40:03.995 [main] ExcelHelper - total rows:3
+[INFO ] 2020-09-10 23:40:10.767 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-10 23:40:10.768 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-10 23:40:41.289 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-10 23:40:41.418 [main] ExcelHelper - Passed
+[INFO ] 2020-09-10 23:40:41.421 [main] ExcelHelper - Test Case  PASSED Tc_stayloc_01
+[INFO ] 2020-09-10 23:40:48.349 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-10 23:40:48.351 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-10 23:41:14.490 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results
+[ERROR] 2020-09-10 23:41:14.516 [main] ExcelHelper - Test Case  FAILED Tc_stayloc_01
+[ERROR] 2020-09-10 23:41:14.516 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results] but found [San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results]
+[INFO ] 2020-09-10 23:41:21.652 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-10 23:41:21.652 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-10 23:41:47.351 [main] ExcelHelper - Test Case for  --------New York, NY, United States (JFK-John F. Kennedy Intl.) Hotel Search Results
+[INFO ] 2020-09-10 23:41:47.431 [main] ExcelHelper - Passed
+[INFO ] 2020-09-10 23:41:47.432 [main] ExcelHelper - Test Case  PASSED Tc_stayloc_01
+[INFO ] 2020-09-10 23:41:49.127 [main] ExcelHelper - total rows:2
+[INFO ] 2020-09-10 23:41:55.649 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-10 23:42:06.902 [main] ExcelHelper -  Filter By Type : HOTEL |Star Rating : 5★ |Budget : Greater than $300
+[INFO ] 2020-09-10 23:42:16.761 [main] ExcelHelper - Search Criteria for type Popular Filter = HOTEL
+[INFO ] 2020-09-10 23:42:21.980 [main] ExcelHelper - Search Criteria for Hotel Star rating : 5★
+[INFO ] 2020-09-10 23:42:22.944 [main] ExcelHelper - Search Criteria for your Budget : Greater than $300
+[ERROR] 2020-09-10 23:42:27.444 [main] ExcelHelper - Test Case  FAILED Tc_hotelfilter_01
+[ERROR] 2020-09-10 23:42:27.445 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [4] but found [3]
+[INFO ] 2020-09-10 23:42:34.493 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-10 23:42:42.668 [main] ExcelHelper -  Filter By Type : FREE_PARKING |Star Rating : 3★ |Budget : $200 to $300
+[INFO ] 2020-09-10 23:42:50.147 [main] ExcelHelper - Search Criteria for type Popular Filter = FREE_PARKING
+[INFO ] 2020-09-10 23:42:58.421 [main] ExcelHelper - Search Criteria for Hotel Star rating : 3★
+[INFO ] 2020-09-10 23:43:00.812 [main] ExcelHelper - Search Criteria for your Budget : $200 to $300
+[INFO ] 2020-09-10 23:43:10.866 [main] ExcelHelper - San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-10 23:43:10.867 [main] ExcelHelper - Test Case  PASSED Tc_hotelfilter_01
+[INFO ] 2020-09-10 23:43:12.428 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-10 23:43:18.798 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[WARN ] 2020-09-10 23:45:00.633 [main] ExcelHelper -  while running the testcase additional chrome browser is launched. But it closes when child window is opened so window handler is having the count of window which is not openned any more. 
+[INFO ] 2020-09-10 23:45:00.635 [main] ExcelHelper - Test Case  PASSED Tc_selecthotel_02

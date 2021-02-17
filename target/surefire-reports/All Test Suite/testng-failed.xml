@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" verbose="0">
+  <test name="C:/Users/Vinuta/IdeaProjects/ExpediaBooking/src/test/java/com/expedia/Test(failed)">
+    <classes>
+      <class name="com.expedia.Test.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="Tc_stayloc_01" invocation-numbers="1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.expedia.Test.HomePageTest -->
+      <class name="com.expedia.Test.HotelSearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Tc_selecthotel_02" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.expedia.Test.HotelSearchTest -->
+    </classes>
+  </test> <!-- C:/Users/Vinuta/IdeaProjects/ExpediaBooking/src/test/java/com/expedia/Test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

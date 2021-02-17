@@ -1,0 +1,73 @@
+Expedia
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+java
+com.expedia
+
+Base
+    BaseTest
+    *************
+        1. @BeforeSuite
+        2. @BeforeMethod
+        3. @AfterMethod
+
+    BasePage
+    **************
+        1. public BasePage(WebDriver driver)
+        2. public String get_title()
+Pages
+    HomePage.class
+    ***************
+        1. public HomePage(WebDriver driver) -- Constructor
+        2. public HotelSearchPage input_staysWindow(String location, String checkin) -- Action to search the availability of the accomadation based on input.
+        3. public void handletempchildwindow()-- it is the method called by input_staysWindow();
+    HotelSearch.class
+    *****************
+        1. public HotelSearchPage(WebDriver driver) -- Constructor
+        2. public Integer H_SearchCriteria(String type,String srating,String budget) -- Action to select multiple filters from the Hotel Search Page
+        3. public void action_HotelDetails() -- Action to perform - to view the selected hotel details to book reservation
+Utils
+    ConfigUtil.class
+    Constant.class[I]
+    ExcelHelper.class
+    WebDriverUtil.class
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+ test
+ com.expedia
+
+ Test
+    HomePageTest.class
+    ******************
+    1. public void title()
+    2. public void Tc_stayloc_01(String loc,String cdate,String searchtitle)
+
+
+    HotelSearchTest.class
+    *********************
+    1. public void Tc_hotelfilter_01(String s_type,String s_rating,String s_budget)--- Check Assert on total search
+    2. public void Tc_selecthotel_02(String loc,String dd,String expectedtitle)--- Scenario Test case to perform booking - stay in Loc
+    Note: DataProvider is used
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+resources
+************
+1. drivers
+2. test-data --  TestData.xlsx
+3. config.properties
+4. log4j2.xml
+5. testng.xml
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Logs
+Reports
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+pom.xml
+
+add: in maven-surefire-plugin
+
+<configuration>
+            <suiteXmlFiles>
+              <suiteXmlFile>C:\Users\Vinuta\IdeaProjects\ExpediaBooking\src\main\resources\testng.xml</suiteXmlFile>
+            </suiteXmlFiles>
+</configuration>

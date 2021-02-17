@@ -1,0 +1,46 @@
+[INFO ] 2021-02-16 23:15:29.574 [main] ExcelHelper - total rows:3
+[INFO ] 2021-02-16 23:15:30.123 [main] ExcelHelper - total rows:2
+[INFO ] 2021-02-16 23:15:30.263 [main] ExcelHelper - total rows:1
+[INFO ] 2021-02-16 23:17:26.704 [main] ExcelHelper - 
+[ERROR] 2021-02-16 23:17:35.515 [main] ExcelHelper - Test Case  FAILED title
+[ERROR] 2021-02-16 23:17:35.516 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations] but found [Expedia Travel: Vacation Homes, Hotels, Car Rentals, Flights & More]
+[INFO ] 2021-02-16 23:17:37.448 [main] ExcelHelper - total rows:3
+[INFO ] 2021-02-16 23:17:41.842 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2021-02-16 23:17:41.844 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2021-02-16 23:20:10.407 [main] ExcelHelper - 
+[ERROR] 2021-02-16 23:20:18.901 [main] ExcelHelper - Test Case  FAILED title
+[ERROR] 2021-02-16 23:20:18.901 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations] but found [Expedia Travel: Vacation Homes, Hotels, Car Rentals, Flights & More]
+[INFO ] 2021-02-16 23:20:21.337 [main] ExcelHelper - total rows:3
+[INFO ] 2021-02-16 23:20:25.370 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2021-02-16 23:20:25.371 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2021-02-16 23:20:51.881 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2021-02-16 23:20:51.913 [main] ExcelHelper - Passed
+[INFO ] 2021-02-16 23:20:51.914 [main] ExcelHelper - Test Case  PASSED Tc_stayloc_01
+[INFO ] 2021-02-16 23:20:56.581 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2021-02-16 23:20:56.582 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2021-02-16 23:21:20.860 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results
+[ERROR] 2021-02-16 23:21:20.884 [main] ExcelHelper - Test Case  FAILED Tc_stayloc_01
+[ERROR] 2021-02-16 23:21:20.885 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results] but found [San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results]
+[INFO ] 2021-02-16 23:21:25.504 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2021-02-16 23:21:25.505 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2021-02-16 23:21:55.075 [main] ExcelHelper - Test Case for  --------New York, NY, United States (JFK-John F. Kennedy Intl.) Hotel Search Results
+[ERROR] 2021-02-16 23:21:55.208 [main] ExcelHelper - Test Case  FAILED Tc_stayloc_01
+[ERROR] 2021-02-16 23:21:55.208 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [New York, NY, United States (JFK-John F. Kennedy Intl.) Hotel Search Results] but found [New York, NY, United States of America (JFK-John F. Kennedy Intl.) Hotel Search Results]
+[INFO ] 2021-02-16 23:21:56.453 [main] ExcelHelper - total rows:2
+[INFO ] 2021-02-16 23:22:00.478 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2021-02-16 23:22:38.195 [main] ExcelHelper -  Filter By Type : HOTEL |Star Rating : 5★ |Budget : Greater than $300
+[INFO ] 2021-02-16 23:22:45.932 [main] ExcelHelper - Search Criteria for type Popular Filter = HOTEL
+[INFO ] 2021-02-16 23:22:46.996 [main] ExcelHelper - Search Criteria for Hotel Star rating : 5★
+[INFO ] 2021-02-16 23:22:48.429 [main] ExcelHelper - Search Criteria for your Budget : Greater than $300
+[INFO ] 2021-02-16 23:22:53.739 [main] ExcelHelper - San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2021-02-16 23:22:53.741 [main] ExcelHelper - Test Case  PASSED Tc_hotelfilter_01
+[INFO ] 2021-02-16 23:22:58.478 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2021-02-16 23:23:10.834 [main] ExcelHelper -  Filter By Type : FREE_PARKING |Star Rating : 3★ |Budget : $200 to $300
+[INFO ] 2021-02-16 23:23:16.167 [main] ExcelHelper - Search Criteria for type Popular Filter = FREE_PARKING
+[INFO ] 2021-02-16 23:23:18.942 [main] ExcelHelper - Search Criteria for Hotel Star rating : 3★
+[INFO ] 2021-02-16 23:23:19.245 [main] ExcelHelper - Search Criteria for your Budget : $200 to $300
+[ERROR] 2021-02-16 23:23:24.309 [main] ExcelHelper - Test Case  FAILED Tc_hotelfilter_01
+[ERROR] 2021-02-16 23:23:24.309 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [4] but found [3]
+[INFO ] 2021-02-16 23:23:25.438 [main] ExcelHelper - total rows:1
+[INFO ] 2021-02-16 23:23:29.666 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[INFO ] 2021-02-16 23:24:08.536 [main] ExcelHelper - Test Case  PASSED Tc_selecthotel_02

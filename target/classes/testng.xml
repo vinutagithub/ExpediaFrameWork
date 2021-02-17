@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Vinuta/IdeaProjects/ExpediaBooking/src/test/java/com/expedia/Test">
+        <classes>
+            <class name="com.expedia.Test.HomePageTest">
+                <methods>
+                    <include name="title"/>
+                    <include name="Tc_stayloc_01"/>
+                </methods>
+            </class>
+            <class name="com.expedia.Test.HotelSearchTest">
+                <methods>
+                    <include name="Tc_hotelfilter_01"/>
+                    <include name="Tc_selecthotel_02"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

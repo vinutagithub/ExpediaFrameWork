@@ -1,0 +1,193 @@
+[INFO ] 2020-09-11 00:02:33.160 [main] ExcelHelper - 
+[INFO ] 2020-09-11 00:02:40.840 [main] ExcelHelper - Test Case  PASSED title
+[INFO ] 2020-09-11 00:02:43.353 [main] ExcelHelper - total rows:3
+[INFO ] 2020-09-11 00:02:49.233 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 00:02:49.233 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-11 00:03:14.795 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-11 00:03:14.885 [main] ExcelHelper - Passed
+[INFO ] 2020-09-11 00:03:14.886 [main] ExcelHelper - Test Case  PASSED Tc_stayloc_01
+[INFO ] 2020-09-11 00:03:21.620 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 00:03:21.621 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-11 00:04:00.976 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results
+[ERROR] 2020-09-11 00:04:01.050 [main] ExcelHelper - Test Case  FAILED Tc_stayloc_01
+[ERROR] 2020-09-11 00:04:01.051 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results] but found [San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results]
+[INFO ] 2020-09-11 00:04:08.543 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 00:04:08.543 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[ERROR] 2020-09-11 00:04:26.576 [main] ExcelHelper - Test Case  FAILED Tc_stayloc_01
+[ERROR] 2020-09-11 00:04:26.577 [main] ExcelHelper - Test Case  FAILED org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <strong>...</strong> is not clickable at point (565, 332). Other element would receive the click: <div class="QSIWebResponsive-creative-container-fade" tabindex="0" style="z-index: 2000000000;">...</div>
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHASHANK-PC', ip: '10.0.0.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Vinuta\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 757ac60bffee7cbc36114fe6e69d8839
+[INFO ] 2020-09-11 00:04:28.769 [main] ExcelHelper - total rows:2
+[INFO ] 2020-09-11 00:04:34.760 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 00:04:45.783 [main] ExcelHelper -  Filter By Type : HOTEL |Star Rating : 5? |Budget : Greater than $300
+[INFO ] 2020-09-11 00:04:51.948 [main] ExcelHelper - Search Criteria for type Popular Filter = HOTEL
+[INFO ] 2020-09-11 00:04:55.803 [main] ExcelHelper - Search Criteria for Hotel Star rating : 5?
+[INFO ] 2020-09-11 00:04:58.798 [main] ExcelHelper - Search Criteria for your Budget : Greater than $300
+[ERROR] 2020-09-11 00:05:03.736 [main] ExcelHelper - Test Case  FAILED Tc_hotelfilter_01
+[ERROR] 2020-09-11 00:05:03.737 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [4] but found [3]
+[INFO ] 2020-09-11 00:05:16.613 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 00:05:43.135 [main] ExcelHelper -  Filter By Type : FREE_PARKING |Star Rating : 3? |Budget : $200 to $300
+[INFO ] 2020-09-11 00:05:51.613 [main] ExcelHelper - Search Criteria for type Popular Filter = FREE_PARKING
+[INFO ] 2020-09-11 00:05:53.901 [main] ExcelHelper - Search Criteria for Hotel Star rating : 3?
+[INFO ] 2020-09-11 00:05:54.875 [main] ExcelHelper - Search Criteria for your Budget : $200 to $300
+[INFO ] 2020-09-11 00:06:10.040 [main] ExcelHelper - San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-11 00:06:10.041 [main] ExcelHelper - Test Case  PASSED Tc_hotelfilter_01
+[INFO ] 2020-09-11 00:06:12.552 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-11 00:06:18.908 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[WARN ] 2020-09-11 00:08:09.480 [main] ExcelHelper -  while running the testcase additional chrome browser is launched. But it closes when child window is opened so window handler is having the count of window which is not openned any more. 
+[INFO ] 2020-09-11 00:08:09.481 [main] ExcelHelper - Test Case  PASSED Tc_selecthotel_02
+[INFO ] 2020-09-11 10:26:43.297 [main] ExcelHelper - total rows:2
+[INFO ] 2020-09-11 10:26:52.036 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 10:27:04.261 [main] ExcelHelper -  Filter By Type : HOTEL |Star Rating : 5★ |Budget : Greater than $300
+[INFO ] 2020-09-11 10:27:11.490 [main] ExcelHelper - Search Criteria for type Popular Filter = HOTEL
+[INFO ] 2020-09-11 10:27:13.273 [main] ExcelHelper - Search Criteria for Hotel Star rating : 5★
+[INFO ] 2020-09-11 10:27:13.894 [main] ExcelHelper - Search Criteria for your Budget : Greater than $300
+[ERROR] 2020-09-11 10:27:14.391 [main] ExcelHelper - Test Case  FAILED Tc_hotelfilter_01
+[ERROR] 2020-09-11 10:27:14.391 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [4] but found [1]
+[INFO ] 2020-09-11 10:27:22.681 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 10:27:32.495 [main] ExcelHelper -  Filter By Type : FREE_PARKING |Star Rating : 3★ |Budget : $200 to $300
+[INFO ] 2020-09-11 10:27:39.650 [main] ExcelHelper - Search Criteria for type Popular Filter = FREE_PARKING
+[INFO ] 2020-09-11 10:27:41.660 [main] ExcelHelper - Search Criteria for Hotel Star rating : 3★
+[INFO ] 2020-09-11 10:27:42.487 [main] ExcelHelper - Search Criteria for your Budget : $200 to $300
+[ERROR] 2020-09-11 10:27:45.329 [main] ExcelHelper - Test Case  FAILED Tc_hotelfilter_01
+[ERROR] 2020-09-11 10:27:45.329 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [4] but found [2]
+[INFO ] 2020-09-11 10:28:58.161 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-11 10:29:06.052 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[INFO ] 2020-09-11 10:30:23.535 [main] ExcelHelper - total rows:2
+[INFO ] 2020-09-11 10:30:30.968 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 10:30:46.022 [main] ExcelHelper -  Filter By Type : HOTEL |Star Rating : 5★ |Budget : Greater than $300
+[WARN ] 2020-09-11 10:30:46.379 [main] ExcelHelper -  while running the testcase additional chrome browser is launched. But it closes when child window is opened so window handler is having the count of window which is not openned any more. 
+[INFO ] 2020-09-11 10:30:46.380 [main] ExcelHelper - Test Case  PASSED Tc_selecthotel_02
+[INFO ] 2020-09-11 10:30:54.563 [main] ExcelHelper - Search Criteria for type Popular Filter = HOTEL
+[INFO ] 2020-09-11 10:30:56.340 [main] ExcelHelper - Search Criteria for Hotel Star rating : 5★
+[INFO ] 2020-09-11 10:30:56.808 [main] ExcelHelper - Search Criteria for your Budget : Greater than $300
+[ERROR] 2020-09-11 10:31:13.825 [main] ExcelHelper - Test Case  FAILED Tc_hotelfilter_01
+[ERROR] 2020-09-11 10:31:13.826 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [4] but found [3]
+[INFO ] 2020-09-11 10:31:20.946 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 10:31:30.911 [main] ExcelHelper -  Filter By Type : FREE_PARKING |Star Rating : 3★ |Budget : $200 to $300
+[INFO ] 2020-09-11 10:31:38.561 [main] ExcelHelper - Search Criteria for type Popular Filter = FREE_PARKING
+[INFO ] 2020-09-11 10:31:39.940 [main] ExcelHelper - Search Criteria for Hotel Star rating : 3★
+[INFO ] 2020-09-11 10:31:40.353 [main] ExcelHelper - Search Criteria for your Budget : $200 to $300
+[INFO ] 2020-09-11 10:31:51.835 [main] ExcelHelper - San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-11 10:31:51.837 [main] ExcelHelper - Test Case  PASSED Tc_hotelfilter_01
+[INFO ] 2020-09-11 13:56:56.209 [main] ExcelHelper - 
+[INFO ] 2020-09-11 13:57:14.832 [main] ExcelHelper - Test Case  PASSED title
+[INFO ] 2020-09-11 13:57:21.367 [main] ExcelHelper - total rows:3
+[INFO ] 2020-09-11 13:57:28.859 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 13:57:28.860 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-11 13:58:05.375 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-11 13:58:05.422 [main] ExcelHelper - Passed
+[INFO ] 2020-09-11 13:58:05.426 [main] ExcelHelper - Test Case  PASSED Tc_stayloc_01
+[INFO ] 2020-09-11 13:58:14.341 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 13:58:14.341 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-11 13:58:49.493 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results
+[ERROR] 2020-09-11 13:58:49.522 [main] ExcelHelper - Test Case  FAILED Tc_stayloc_01
+[ERROR] 2020-09-11 13:58:49.522 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results] but found [San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results]
+[INFO ] 2020-09-11 13:58:58.350 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 13:58:58.351 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-11 13:59:27.152 [main] ExcelHelper - Test Case for  --------New York, NY, United States (JFK-John F. Kennedy Intl.) Hotel Search Results
+[INFO ] 2020-09-11 13:59:27.255 [main] ExcelHelper - Passed
+[INFO ] 2020-09-11 13:59:27.257 [main] ExcelHelper - Test Case  PASSED Tc_stayloc_01
+[INFO ] 2020-09-11 13:59:29.870 [main] ExcelHelper - total rows:2
+[INFO ] 2020-09-11 13:59:36.737 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 13:59:59.948 [main] ExcelHelper -  Filter By Type : HOTEL |Star Rating : 5★ |Budget : Greater than $300
+[INFO ] 2020-09-11 14:00:12.061 [main] ExcelHelper - Search Criteria for type Popular Filter = HOTEL
+[INFO ] 2020-09-11 14:00:21.062 [main] ExcelHelper - Search Criteria for Hotel Star rating : 5★
+[INFO ] 2020-09-11 14:00:22.323 [main] ExcelHelper - Search Criteria for your Budget : Greater than $300
+[ERROR] 2020-09-11 14:00:27.280 [main] ExcelHelper - Test Case  FAILED Tc_hotelfilter_01
+[ERROR] 2020-09-11 14:00:27.281 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [4] but found [3]
+[INFO ] 2020-09-11 14:00:36.005 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 14:00:46.103 [main] ExcelHelper -  Filter By Type : FREE_PARKING |Star Rating : 3★ |Budget : $200 to $300
+[INFO ] 2020-09-11 14:00:57.910 [main] ExcelHelper - Search Criteria for type Popular Filter = FREE_PARKING
+[INFO ] 2020-09-11 14:01:00.529 [main] ExcelHelper - Search Criteria for Hotel Star rating : 3★
+[INFO ] 2020-09-11 14:01:08.146 [main] ExcelHelper - Search Criteria for your Budget : $200 to $300
+[INFO ] 2020-09-11 14:01:19.368 [main] ExcelHelper - San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-11 14:01:19.370 [main] ExcelHelper - Test Case  PASSED Tc_hotelfilter_01
+[INFO ] 2020-09-11 14:01:21.808 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-11 14:01:28.488 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[ERROR] 2020-09-11 14:02:09.712 [main] ExcelHelper - Test Case  FAILED Tc_selecthotel_02
+[ERROR] 2020-09-11 14:02:09.712 [main] ExcelHelper - Test Case  FAILED org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHASHANK-PC', ip: '10.0.0.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Vinuta\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16eb6747f2692eb6bfd7399de55d5014
+[INFO ] 2020-09-11 14:05:59.842 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-11 14:06:09.641 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[ERROR] 2020-09-11 14:06:55.191 [main] ExcelHelper - Test Case  FAILED Tc_selecthotel_02
+[ERROR] 2020-09-11 14:06:55.191 [main] ExcelHelper - Test Case  FAILED org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHASHANK-PC', ip: '10.0.0.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Vinuta\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bf92a59a03272fdac70ebb939e9f2acb
+[INFO ] 2020-09-11 14:08:11.931 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-11 14:08:21.196 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[ERROR] 2020-09-11 14:09:08.687 [main] ExcelHelper - Test Case  FAILED Tc_selecthotel_02
+[ERROR] 2020-09-11 14:09:08.687 [main] ExcelHelper - Test Case  FAILED org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHASHANK-PC', ip: '10.0.0.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Vinuta\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51329}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0fe888f0a97b921536f5e79137f10324
+[INFO ] 2020-09-11 14:10:13.548 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-11 14:10:23.112 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[WARN ] 2020-09-11 14:12:06.187 [main] ExcelHelper -  while running the testcase additional chrome browser is launched. But it closes when child window is opened so window handler is having the count of window which is not openned any more. 
+[INFO ] 2020-09-11 14:12:06.191 [main] ExcelHelper - Test Case  PASSED Tc_selecthotel_02
+[INFO ] 2020-09-11 14:14:14.469 [main] ExcelHelper - 
+[INFO ] 2020-09-11 14:14:39.280 [main] ExcelHelper - Test Case  PASSED title
+[INFO ] 2020-09-11 14:14:44.388 [main] ExcelHelper - total rows:3
+[INFO ] 2020-09-11 14:14:51.726 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 14:14:51.727 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-11 14:15:25.310 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-11 14:15:25.380 [main] ExcelHelper - Passed
+[INFO ] 2020-09-11 14:15:25.381 [main] ExcelHelper - Test Case  PASSED Tc_stayloc_01
+[INFO ] 2020-09-11 14:15:34.398 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 14:15:34.398 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-11 14:16:10.807 [main] ExcelHelper - Test Case for  --------San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results
+[ERROR] 2020-09-11 14:16:10.841 [main] ExcelHelper - Test Case  FAILED Tc_stayloc_01
+[ERROR] 2020-09-11 14:16:10.842 [main] ExcelHelper - Test Case  FAILED java.lang.AssertionError: expected [San Francisco, CA, United States of America (SFO-San Francisco Intl) Hotel Search Results] but found [San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results]
+[INFO ] 2020-09-11 14:16:19.349 [main] ExcelHelper - Test Case to search stay based on location and check in date
+[INFO ] 2020-09-11 14:16:19.350 [main] ExcelHelper -  TestCase using DataProvider to search accommodation 
+[INFO ] 2020-09-11 14:16:54.091 [main] ExcelHelper - Test Case for  --------New York, NY, United States (JFK-John F. Kennedy Intl.) Hotel Search Results
+[INFO ] 2020-09-11 14:16:54.149 [main] ExcelHelper - Passed
+[INFO ] 2020-09-11 14:16:54.150 [main] ExcelHelper - Test Case  PASSED Tc_stayloc_01
+[INFO ] 2020-09-11 14:16:56.583 [main] ExcelHelper - total rows:2
+[INFO ] 2020-09-11 14:17:03.364 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 14:17:13.506 [main] ExcelHelper -  Filter By Type : HOTEL |Star Rating : 5? |Budget : Greater than $300
+[INFO ] 2020-09-11 14:17:27.803 [main] ExcelHelper - Search Criteria for type Popular Filter = HOTEL
+[INFO ] 2020-09-11 14:17:30.675 [main] ExcelHelper - Search Criteria for Hotel Star rating : 5?
+[INFO ] 2020-09-11 14:17:37.574 [main] ExcelHelper - Search Criteria for your Budget : Greater than $300
+[INFO ] 2020-09-11 14:17:46.666 [main] ExcelHelper - San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-11 14:17:46.667 [main] ExcelHelper - Test Case  PASSED Tc_hotelfilter_01
+[INFO ] 2020-09-11 14:17:55.110 [main] ExcelHelper - Test Case to verify Filter By using dataprovider 
+[INFO ] 2020-09-11 14:18:08.138 [main] ExcelHelper -  Filter By Type : FREE_PARKING |Star Rating : 3? |Budget : $200 to $300
+[INFO ] 2020-09-11 14:18:18.499 [main] ExcelHelper - Search Criteria for type Popular Filter = FREE_PARKING
+[INFO ] 2020-09-11 14:18:28.650 [main] ExcelHelper - Search Criteria for Hotel Star rating : 3?
+[INFO ] 2020-09-11 14:18:35.953 [main] ExcelHelper - Search Criteria for your Budget : $200 to $300
+[INFO ] 2020-09-11 14:18:43.696 [main] ExcelHelper - San Francisco, CA, United States of America (SFO-San Francisco Intl.) Hotel Search Results
+[INFO ] 2020-09-11 14:18:43.698 [main] ExcelHelper - Test Case  PASSED Tc_hotelfilter_01
+[INFO ] 2020-09-11 14:18:45.717 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-11 14:18:52.765 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[ERROR] 2020-09-11 14:19:31.504 [main] ExcelHelper - Test Case  FAILED Tc_selecthotel_02
+[ERROR] 2020-09-11 14:19:31.505 [main] ExcelHelper - Test Case  FAILED org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHASHANK-PC', ip: '10.0.0.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Vinuta\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c6ebf408ebd0c8c20a8d2dceb53aa074
+[INFO ] 2020-09-11 14:26:15.174 [main] ExcelHelper - total rows:1
+[INFO ] 2020-09-11 14:26:24.598 [main] ExcelHelper - Scenario based Test case to perform booking - stay in Loc
+[WARN ] 2020-09-11 14:27:31.755 [main] ExcelHelper -  while running the testcase additional chrome browser is launched. But it closes when child window is opened so window handler is having the count of window which is not openned any more. 
+[INFO ] 2020-09-11 14:27:31.757 [main] ExcelHelper - Test Case  PASSED Tc_selecthotel_02
